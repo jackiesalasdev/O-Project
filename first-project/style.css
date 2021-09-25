@@ -27,7 +27,6 @@ img {
 
 .container {
   margin-top: 3rem;
-
   border-width: 3px;
   display: flex;
   width: 70vw;
@@ -38,13 +37,13 @@ img {
   width: 70vw;
   background-color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   border-radius: 1rem;
 }
 
 .txt-holder {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-direction: column;
   align-items: center;
   max-height: 85vh;
@@ -55,7 +54,9 @@ img {
 .user-size {
   font-size: 1.5rem;
   color: slategrey;
-  border-bottom: slategrey 1px solid;
+  border-bottom: rgb(188, 191, 194) 1px solid;
+  width: 14rem;
+  justify-content: center;
 }
 
 h1 {
@@ -66,18 +67,23 @@ h1 {
 .perk-1,
 .perk-2 {
   color: rgb(63, 190, 248);
-}
-
-.compartment-2 {
-  border-right: slategrey solid 3rem;
-  border-left: slategrey solid 3rem;
-  border-width: 1px;
+  width: 14rem;
+  align-content: center;
+  justify-content: center;
 }
 
 p {
-  padding: 1rem;
+  padding: 0.5rem;
   display: flex;
   align-content: center;
-  border-bottom: 1px solid slategrey;
+  border-bottom: 1px solid rgb(188, 191, 194, 0.5);
   border-width: 1px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.compartment {
+  outline: 1px solid rgb(188, 191, 194, 0.5);
+  height: 38rem;
+  margin-top: 1.5rem;
 }
