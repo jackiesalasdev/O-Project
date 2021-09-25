@@ -46,4 +46,28 @@ img {
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
+  max-height: 85vh;
+  max-width: 70vw;
+  padding: 2rem;
+}
+
+.user-size {
+  font-size: 1.5rem;
+  color: slategrey;
+}
+
+h1 {
+  color: rgb(63, 190, 248);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.perk-1,
+.perk-2 {
+  color: rgb(63, 190, 248);
+}
+
+p {
+  padding: 1rem;
+  display: flex;
+  align-content: center;
 }
