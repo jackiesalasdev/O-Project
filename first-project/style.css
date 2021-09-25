@@ -15,7 +15,7 @@ body {
 
 .img-holder {
   margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
 }
@@ -28,6 +28,7 @@ img {
 .container {
   margin-top: 3rem;
 
+  border-width: 3px;
   display: flex;
   width: 70vw;
   height: 85vh;
@@ -54,6 +55,7 @@ img {
 .user-size {
   font-size: 1.5rem;
   color: slategrey;
+  border-bottom: slategrey 1px solid;
 }
 
 h1 {
@@ -66,8 +68,16 @@ h1 {
   color: rgb(63, 190, 248);
 }
 
+.compartment-2 {
+  border-right: slategrey solid 3rem;
+  border-left: slategrey solid 3rem;
+  border-width: 1px;
+}
+
 p {
   padding: 1rem;
   display: flex;
   align-content: center;
+  border-bottom: 1px solid slategrey;
+  border-width: 1px;
 }
